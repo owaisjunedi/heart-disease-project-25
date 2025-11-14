@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Model files (these are generated *inside* the container)
+*.pkl
+
+# Pipenv local environment (if it exists in the project)
+venv/
+.venv/
+
+# Git
+.git
+.gitignore
+
+# Notebook
+*.ipynb
+.ipynb_checkpoints/
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Pipenv files (we are using requirements.txt)
+Pipfile
+Pipfile.lock
